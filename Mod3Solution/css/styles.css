@@ -1,0 +1,11 @@
+/* Styles to make my heading 1 white and background black */
+body {
+  background-color: black;
+  color: white;
+}
+
+/* body {font-family: "Comic Sans MS", cursive, sans-serif; padding: 0px; margin: 0px; display: inline;} */
+/* Original line of the font from my second week solution */
+
+body {font-family: "Comic Sans MS", cursive, sans-serif;}
+/* My Comic Sans font for the page. I got rid of padding, margins and display */
