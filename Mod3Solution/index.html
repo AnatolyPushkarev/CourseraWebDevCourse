@@ -46,7 +46,7 @@
                       
                     </div>
                     
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" area-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" area-expanded="false"> <!-- The button does not work without JS files -->
                     <span class="sr-only">Toggle navigation</span> <!-- This is for the screen readers only -->
                     <span class="icon-bar"></span> <!-- Those are the horisontal lines at the button -->
                     <span class="icon-bar"></span> <!-- Those are the horisontal lines at the button -->
@@ -56,7 +56,8 @@
               
               
                     <div id="collapsable-nav" class="collapse navbar-collapse">
-                            <ul id="nav-list" class="nav navbar-nav navbar-right">
+                            <ul id="nav-list" class="visible-xs nav navbar-nav navbar-right">
+                              <!-- Visible XS added so that list item wouldn't pop up when we don't need them -->
                               <!--li class="visible-xs active"-->
                               <li>
                                 <a href="#"><!--span class="glyphicon glyphicon-home"></span--> Chicken</a>

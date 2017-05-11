@@ -45,3 +45,31 @@ body {font-family: "Comic Sans MS", cursive, sans-serif;}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid black;
+  /*width: 100;*/ /* Styles to try to put in order dropdown menu */
+  /*height: 100;*/ /* Styles to try to put in order dropdown menu */
+}
+
+
+/* Styles for the dropdown menu */
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Styles to try to put the dropdown menu in normal position */
+
+/*.navbar-brand {
+  width: 100;
+  height: 100;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}*/
+
+#collapsable-nav { /* Finally made my dropdown menu look decently alligned */
+  clear: both;
+}
