@@ -16,6 +16,10 @@ body {font-family: "Comic Sans MS", cursive, sans-serif;}
     border-radius: 0;
     border: 0;
 }
+/* Trying to add black line to the header nav */
+.container {
+  
+}
 
 /* Brand Name */
 
@@ -56,7 +60,9 @@ body {font-family: "Comic Sans MS", cursive, sans-serif;}
   text-align: center;
   font-size: 1.1em;
   font-weight: bold;
+  border-bottom: 2px solid black;
 }
+
 
 /* Styles to try to put the dropdown menu in normal position */
 
@@ -72,4 +78,23 @@ body {font-family: "Comic Sans MS", cursive, sans-serif;}
 
 #collapsable-nav { /* Finally made my dropdown menu look decently alligned */
   clear: both;
+  background-color: white;
+  /*border: 2px solid black;*/
+}
+
+h2 { /* Our Menu */
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+
+h3 { /* Chicken */
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+section {
+  background-color: darkgrey;
 }
