@@ -1,129 +1,67 @@
-/* Styles to make my heading 1 white and background black */
-/* body {
-  background-color: black;
-  color: white;
-}*/ /* I don't need it in this example */
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
-/* body {font-family: "Comic Sans MS", cursive, sans-serif; padding: 0px; margin: 0px; display: inline;} */
-/* Original line of the font from my second week solution */
-
-body {font-family: "Comic Sans MS", cursive, sans-serif;}
-/* My Comic Sans font for the page. I got rid of padding, margins and display */
-
-/* Styles to make my navbar header look without rounded corners and with correct color */
 #header-nav {
-    background-color: darkgrey; /* Color can be changed later */
-    border-radius: 0;
-    border: 0;
-}
-/* Trying to add black line to the header nav */
-.container {
-  
+	background-color: darkgrey;
+	border-radius: 0;
+	border: 0;
 }
 
-/* Brand Name */
+.navbar-brand h1 {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
 
-/* We don't need that padding */
-/*.navbar-brand {
-    padding-top: 25px;
-}*/
-
-.navbar-brand h1 { /* Logo name, Food, LLC */
-    /*font-family: 'Lora', serif;*/
-    color: black;
-    font-size: 1.5em;
-    /*text-transform: uppercase;*/
-    font-weight: bold;
-    /*text-shadow: 1px 1px 1px #222;*/ /* Might apply later */
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-    }
-/* Brand Name Ends here */
-
-/* The button */
-
-/*.navbar-header button {
-  color: black;
-}*/ /* My pathetic attempt to change the color of the button */
+.navbar-brand a:hover, navbar-brand a:focus {
+	text-decoration: none;
+}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 2px solid black;
-  /*width: 100;*/ /* Styles to try to put in order dropdown menu */
-  /*height: 100;*/ /* Styles to try to put in order dropdown menu */
+	border: 2px solid black;
 }
 
-
-/* Styles for the dropdown menu */
 #nav-list a {
-  color: black;
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: bold;
-  border-bottom: 2px solid black;
+	color: black;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+	border-bottom: 2px solid black;
 }
 
-
-/* Styles to try to put the dropdown menu in normal position */
-
-/*.navbar-brand {
-  width: 100;
-  height: 100;
+#collapsable-nav {
+	clear: both;
+	background-color: white;
 }
 
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}*/
-
-#collapsable-nav { /* Finally made my dropdown menu look decently alligned */
-  clear: both;
-  background-color: white;
-  /*border: 2px solid black;*/
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
 }
 
-h2 { /* Our Menu */
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.8em;
-}
-
-
-h3 { /* Chicken */
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
+h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
 }
 
 section {
-  background-color: darkgrey;
+	background-color: darkgrey;
 }
 
 .row {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
-  .row {
-/*  padding: 15px 15px 15px 15px;*/
-  margin: 15px 10% 10% 10%;
-  }
+	.row {
+		margin: 15px 10% 10% 10%;
+	}
+	
 }
-/*.container {
-  margin: 15px 15px 15px 15px;
-  padding: 15px 15px 15px 15px;  
-}*/
-
-/*@media (max-width: 479px) {
-  
-.col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
-  
-}*/

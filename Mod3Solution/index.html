@@ -1,113 +1,79 @@
-<!DOCTYPE html> <!-- HTML5 -->
+<!DOCTYPE html>
 
-<html lang="en"> <!-- Language of the file -->
-  
-  <head> <!-- Head starts here -->
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Assignment solution for module 3 </title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+		<header>
+
+			<nav id="header-nav" class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+
+						<div class="navbar-brand">
+							<a href="index.html"><h1>Food, LLC</h1></a>
+						</div>
+
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" area-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<div id="collapsable-nav" class="collapse navbar-collapse">
+							<ul id="nav-list" class="visible-xs nav navbar-nav navbar-right">
+								<li>
+									<a href="#">Chicken</a>
+								</li>
+								<li>
+									<a href="#">Beef</a>
+								</li>
+								<li>
+									<a href="#">Sushi</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</nav>
     
-    <meta charset="utf-8"> <!-- Set of the characters UTF-8 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 100% of the viewport -->
-    
-    <title> Assignment solution for module 3 </title>
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap wired in here -->
-    <link rel="stylesheet" href="css/styles.css"> <!-- My personal overwriting styles wired in here -->
-    
-    <!--link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'-->
-     <!-- Oxygen font from google pluged in here --> <!-- I don't need this font now -->
-    <!--link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'-->
-    <!-- Lora font from google pluged in here --> <!-- I don't need this font now -->
-  
-  </head> <!-- Head Ends here -->
-  
-  
+		</header>
 
-  <body> <!-- Body Starts here -->
-    <header> <!-- Header as it should be by HTML5 -->
-      
-    
-      
-      <nav id="header-nav" class="navbar navbar-default"> <!-- Navigational bar with the header -->
-        <div class="container"> <!-- Container comprises the whole upper part of the site -->
-            <div class="navbar-header"> <!-- Everything within the Header -->
-                    
-                    <!--a href="index.html" class="pull-left visible-md visible-lg">
-                        <div id="logo-img" alt="Logo image">
-                        </div>
-                    </a-->    <!-- That is the logo image we don't need it for now -->
-                    
-                    <div class="navbar-brand">
-                    <a href="index.html"><h1>Food, LLC</h1></a>
-                      
-                    <!--p>
-                        <img src="star-k-logo.png" alt="Kosher Certification">
-                        <span>Kosher Certified</span>
-                    </p-->     <!-- That is the Kosher sign, we don't need it here -->
-                      
-                    </div>
-                    
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" area-expanded="false"> <!-- The button does not work without JS files -->
-                    <span class="sr-only">Toggle navigation</span> <!-- This is for the screen readers only -->
-                    <span class="icon-bar"></span> <!-- Those are the horisontal lines at the button -->
-                    <span class="icon-bar"></span> <!-- Those are the horisontal lines at the button -->
-                    <span class="icon-bar"></span> <!-- Those are the horisontal lines at the button -->
-                    </button>
-              
-              
-              
-                    <div id="collapsable-nav" class="collapse navbar-collapse">
-                            <ul id="nav-list" class="visible-xs nav navbar-nav navbar-right">
-                              <!-- Visible XS added so that list item wouldn't pop up when we don't need them -->
-                              <!--li class="visible-xs active"-->
-                              <li id="li1">
-                                <a href="#"><!--span class="glyphicon glyphicon-home"></span--> Chicken</a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                <!--span class="glyphicon glyphicon-cutlery"></span--><!--br class="hidden-xs"--> Beef</a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                <!--span class="glyphicon glyphicon-info-sign"></span--><!--br class="hidden-xs"--> Sushi</a>
-                              </li>
-                            </ul> <!-- #nav-list List of the menu items -->
-                    </div> <!-- .collapse .navbar-collapse The menu for the button itself -->
-              
-                    
+		<h2>Our Menu</h2>
 
-              
-              
-            </div> <!-- .navbar-header -->
-        </div> <!-- .container -->
-      </nav> <!-- #header-nav -->
-    
-    </header>
-        
-      <h2>Our Menu</h2><!-- My heading with white letters and black background -->
+		<div class="container">
+			<div class="row">
+				<section class="col-md-12 col-sm-12 col-xs-12">
+					<h3> Chicken </h3>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu fringilla leo. Nam a volutpat dolor, sed facilisis leo. Nunc gravida ligula vitae mattis sodales. Pellentesque et lacus a velit malesuada tristique sed sed quam. Nulla facilisi. Integer in dapibus sem. Nulla pretium est in quam dictum viverra. Pellentesque accumsan rutrum mattis. Nulla condimentum arcu non ex tempus, et dictum leo scelerisque. Aenean in magna egestas, congue leo eget, vestibulum orci.
 
-<!--      </br>-->
-      <div class="container">
-        <div class="row">
-      <section class="col-md-12 col-sm-12 col-xs-12">
-        <h3> Chicken </h3>  
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu fringilla leo. Nam a volutpat dolor, sed facilisis leo. Nunc gravida ligula vitae mattis sodales. Pellentesque et lacus a velit malesuada tristique sed sed quam. Nulla facilisi. Integer in dapibus sem. Nulla pretium est in quam dictum viverra. Pellentesque accumsan rutrum mattis. Nulla condimentum arcu non ex tempus, et dictum leo scelerisque. Aenean in magna egestas, congue leo eget, vestibulum orci.
+					Fusce eu maximus velit, sed bibendum odio. Nullam nec tincidunt quam. Nam eu varius turpis, vitae fermentum massa. Morbi accumsan sollicitudin erat eget rutrum. Nam ipsum neque, finibus ut porta convallis, accumsan ac lorem. Nam vehicula hendrerit suscipit. Nulla consequat interdum vehicula. Vivamus libero orci, ultricies vel tincidunt et, rhoncus vel eros. Donec vel suscipit turpis. Sed sit amet magna aliquam, commodo ligula ac, faucibus metus. Praesent faucibus dictum neque a luctus. Maecenas sed risus vitae lectus sollicitudin aliquet ut commodo lectus. Praesent urna orci, pellentesque eget tincidunt ut, ornare a ante. Praesent pellentesque convallis auctor.
 
-        Fusce eu maximus velit, sed bibendum odio. Nullam nec tincidunt quam. Nam eu varius turpis, vitae fermentum massa. Morbi accumsan sollicitudin erat eget rutrum. Nam ipsum neque, finibus ut porta convallis, accumsan ac lorem. Nam vehicula hendrerit suscipit. Nulla consequat interdum vehicula. Vivamus libero orci, ultricies vel tincidunt et, rhoncus vel eros. Donec vel suscipit turpis. Sed sit amet magna aliquam, commodo ligula ac, faucibus metus. Praesent faucibus dictum neque a luctus. Maecenas sed risus vitae lectus sollicitudin aliquet ut commodo lectus. Praesent urna orci, pellentesque eget tincidunt ut, ornare a ante. Praesent pellentesque convallis auctor.
+					Sed mollis blandit ante sollicitudin dapibus. Praesent tincidunt porta massa, at gravida mauris. Nullam sem massa, dapibus id tortor malesuada, rutrum aliquet erat. Donec felis orci, euismod in lectus et, tincidunt interdum augue. Donec tristique sit amet metus eget condimentum. Proin quam diam, tincidunt nec ante quis, molestie elementum diam. Etiam pellentesque nisl vitae aliquam mattis.
 
-        Sed mollis blandit ante sollicitudin dapibus. Praesent tincidunt porta massa, at gravida mauris. Nullam sem massa, dapibus id tortor malesuada, rutrum aliquet erat. Donec felis orci, euismod in lectus et, tincidunt interdum augue. Donec tristique sit amet metus eget condimentum. Proin quam diam, tincidunt nec ante quis, molestie elementum diam. Etiam pellentesque nisl vitae aliquam mattis.
+					Nunc id tortor nisl. Nam eget enim pellentesque, luctus odio ut, eleifend augue. Integer eu odio interdum, hendrerit libero vitae, convallis felis. Morbi eget augue quis dolor iaculis varius eu non enim. In a iaculis leo. Donec non fringilla justo. Integer vel sapien id sem ullamcorper placerat. Curabitur varius, sapien eget ullamcorper pellentesque, ipsum arcu elementum massa, non luctus sem nisi eget sapien. Nam faucibus sollicitudin lectus sit amet aliquam. Mauris vel mauris ullamcorper, varius purus in, sodales nunc. Duis vehicula pretium nunc eu finibus. Nullam sagittis, nulla a tristique dapibus, sapien diam luctus ex, eu efficitur massa leo non justo. Nunc justo eros, sodales in pellentesque sit amet, pulvinar eget dolor.
 
-        Nunc id tortor nisl. Nam eget enim pellentesque, luctus odio ut, eleifend augue. Integer eu odio interdum, hendrerit libero vitae, convallis felis. Morbi eget augue quis dolor iaculis varius eu non enim. In a iaculis leo. Donec non fringilla justo. Integer vel sapien id sem ullamcorper placerat. Curabitur varius, sapien eget ullamcorper pellentesque, ipsum arcu elementum massa, non luctus sem nisi eget sapien. Nam faucibus sollicitudin lectus sit amet aliquam. Mauris vel mauris ullamcorper, varius purus in, sodales nunc. Duis vehicula pretium nunc eu finibus. Nullam sagittis, nulla a tristique dapibus, sapien diam luctus ex, eu efficitur massa leo non justo. Nunc justo eros, sodales in pellentesque sit amet, pulvinar eget dolor.
+					Etiam ac leo eros. Etiam ante sapien, rhoncus at diam eu, pellentesque maximus lorem. Vestibulum semper tristique ornare. Aliquam rhoncus lorem sed eros maximus vehicula. Integer nec bibendum velit, non elementum ante. Sed quis pharetra ligula. Vestibulum ultrices vehicula arcu, ac imperdiet eros ultricies ut. Nulla scelerisque fringilla arcu luctus convallis. Curabitur et auctor sapien, posuere ultrices erat. In in magna mollis, vulputate velit vitae, consectetur lorem. Proin hendrerit diam tortor, nec consectetur nibh aliquet in. Mauris sed elit dignissim, venenatis ipsum ac, porttitor mi. Vivamus tortor nisi, laoreet dictum diam id, egestas dapibus erat. Proin et sem id risus finibus pretium.</p>
 
-        Etiam ac leo eros. Etiam ante sapien, rhoncus at diam eu, pellentesque maximus lorem. Vestibulum semper tristique ornare. Aliquam rhoncus lorem sed eros maximus vehicula. Integer nec bibendum velit, non elementum ante. Sed quis pharetra ligula. Vestibulum ultrices vehicula arcu, ac imperdiet eros ultricies ut. Nulla scelerisque fringilla arcu luctus convallis. Curabitur et auctor sapien, posuere ultrices erat. In in magna mollis, vulputate velit vitae, consectetur lorem. Proin hendrerit diam tortor, nec consectetur nibh aliquet in. Mauris sed elit dignissim, venenatis ipsum ac, porttitor mi. Vivamus tortor nisi, laoreet dictum diam id, egestas dapibus erat. Proin et sem id risus finibus pretium.</p>
-        
-      </section>
-          </div> <!-- Div Row Ends here -->
-      </div> <!-- Div container ends here -->
-      <!-- jQuery (Bootstrap JS plugins depend on it) -->
-      <script src="js/jquery-2.1.4.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/script.js"></script>
+			</section>
+		</div>
+		</div>
 
-  </body> <!-- Body encompases the whole body of the site -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
 
-</html> <!-- HTML ends here after everything -->
+	</body>
+</html>
